@@ -1,0 +1,7 @@
+https://www.geeksforgeeks.org/problems/count-ways-to-nth-stairorder-does-not-matter1322/0
+ // when order does not matter.
+    long long countWays(int n) {
+        // your code here
+         long long ans = (n/2)+1;
+        return ans;
+//done

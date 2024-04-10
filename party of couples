@@ -1,0 +1,12 @@
+https://www.geeksforgeeks.org/problems/alone-in-couple5507/1
+
+//User function Template for C++
+
+class Solution{
+    public:
+    int findSingle(int n, int arr[]){
+         int Xor = 0;
+        for(int i=0;i<n;i++) Xor^=arr[i];
+        return Xor;
+    }
+};

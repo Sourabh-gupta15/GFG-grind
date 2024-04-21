@@ -1,0 +1,12 @@
+https://www.geeksforgeeks.org/problems/three-way-partitioning/1
+
+class Solution{   
+public:
+    //Function to partition the array around the range such 
+    //that array is divided into three parts.
+    void threeWayPartition(vector<int>& v,int a, int b)
+    {
+        // code here 
+         sort(v.begin(),v.end());
+    }
+};

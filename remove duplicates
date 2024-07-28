@@ -1,0 +1,17 @@
+class Solution {
+  public:
+
+    string removeDups(string str) {
+           if(str.length()==1) return str;
+        int c[256]={};
+        for(int i=0;i<str.length();i++) c[str[i]]++;
+        string ans="";
+        for(int i=0;i<str.length();i++){
+            if(c[str[i]]!=0){
+                ans+=str[i];
+                c[str[i]]=0;
+            }
+        }
+        return ans;
+    }
+};
